@@ -1,0 +1,31 @@
+﻿Build started 02/09/2017 16:44:25.
+     1>Project "G:\GitHub\DirectX_Animation\sample_animation\samples\sample04\sample04.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ball.cpp Balls.cpp
+         Balls.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\github\directx_animation\sample_animation\samples\sample04\balls.cpp(23): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>g:\github\directx_animation\sample_animation\samples\sample04\balls.cpp(24): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>g:\github\directx_animation\sample_animation\samples\sample04\balls.cpp(25): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>g:\github\directx_animation\sample_animation\samples\sample04\balls.cpp(26): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Ball.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\github\directx_animation\sample_animation\samples\sample04\ball.cpp(44): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>g:\github\directx_animation\sample_animation\samples\sample04\ball.cpp(45): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\DirectX_Animation\sample_animation\samples\Debug\sample04.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\DirectX_Animation\sample_animation\samples\Debug\sample04.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHub\DirectX_Animation\sample_animation\samples\Debug\sample04.lib" /MACHINE:X86 Debug\Animation.obj
+         Debug\Ball.obj
+         Debug\Balls.obj
+         Debug\ColoredRect.obj
+         Debug\GameObject.obj
+         Debug\GTexture.obj
+         Debug\main.obj
+         Debug\Sprite.obj
+         Debug\VideoDriver.obj
+         sample04.vcxproj -> G:\GitHub\DirectX_Animation\sample_animation\samples\Debug\sample04.exe
+     1>Done Building Project "G:\GitHub\DirectX_Animation\sample_animation\samples\sample04\sample04.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.30

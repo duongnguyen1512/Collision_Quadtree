@@ -1,0 +1,9 @@
+﻿Build started 01/09/2017 11:02:57.
+     1>Project "G:\GitHub\DirectX_Animation\sample_animation\samples\sample02\sample02.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         sample02.vcxproj -> G:\GitHub\DirectX_Animation\sample_animation\samples\Debug\sample02.exe
+     1>Done Building Project "G:\GitHub\DirectX_Animation\sample_animation\samples\sample02\sample02.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.77
